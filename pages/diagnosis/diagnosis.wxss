@@ -1,0 +1,18 @@
+.in-image{
+ display:flex;
+ height: 450px;                  
+ justify-content: center;        
+ align-items:center;              
+ 
+}
+
+.p_button{
+ display:flex;
+ height: 100rpx;                  
+ justify-content: center;        
+ align-items:center;
+}
+.box{
+  width:200rpx;
+  height:80%;
+}

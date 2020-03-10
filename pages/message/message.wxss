@@ -1,0 +1,19 @@
+.header{
+
+  margin-top:1.2ch;
+  margin-left:3.8ch;
+   font-size: 200%;
+}
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.avatar{   
+ height: 50px;    
+width: 50px;    
+border-radius: 25px;}
+.word{
+ 
+   margin-left:4.8ch;
+}

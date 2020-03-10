@@ -1,0 +1,14 @@
+<text class="header">遗传综合征介绍</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+   <image src='/images/tang.jpg' class='avatar'  bindtap="intro"></image>
+     <text class="word" bindtap="intro">唐氏综合征</text>
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/tang.jpg' class='avatar' bindtap="intro"></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro">唐氏综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>

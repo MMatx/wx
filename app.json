@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/diagnosis/diagnosis",
+    "pages/cal/cal",
+    "pages/person/person",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/photo/photo",
+    "pages/result/result",
+    "pages/cc/cc",
+    "pages/carm/carm",
+    "pages/introduce/tang/tang",
+    "pages/per/login/login",
+    "pages/introduce/apert/apert",
+    "pages/introduce/charge/charge",
+    "pages/introduce/cornelia_de_lange/cornelia_de_lange",
+    "pages/introduce/crouzon/crouzon",
+    "pages/introduce/digeroge/digeroge",
+    "pages/introduce/floating/floating",
+    "pages/introduce/kabuki/kabuki",
+    "pages/introduce/noonan/noonan",
+    "pages/introduce/pws/pws",
+    "pages/introduce/rett/rett",
+    "pages/introduce/rubinstein/rubinstein",
+    "pages/introduce/silver/silver",
+    "pages/introduce/sotos/sotos",
+    "pages/introduce/williams/williams",
+    "pages/per/person_message/person_message",
+    "pages/per/about/about",
+    "pages/per/edit/edit",
+    "pages/per/message_back/message_back"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#25b8ef",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#7dc5eb",
+    "list": [
+      {
+        "pagePath": "pages/diagnosis/diagnosis",
+        "text": "诊断",
+        "iconPath": "/imag/diagnosis1.png",
+        "selectedIconPath": "/imag/diagnosis.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "快讯",
+        "iconPath": "/imag/message1.png",
+        "selectedIconPath": "/imag/message.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "/imag/person1.png",
+        "selectedIconPath": "/imag/person.png"
+      }
+    ]
+  }
+}
