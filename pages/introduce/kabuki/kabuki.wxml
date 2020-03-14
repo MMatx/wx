@@ -1,2 +1,27 @@
-<!--pages/introduce/kabuki/kabuki.wxml-->
-<text>pages/introduce/kabuki/kabuki.wxml</text>
+<text class="title_txt">Kabuki综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;其病因有人认为是常染色体显性遗传。也有人认为可能是在胚胎6～9周时病毒感染，使用致畸药物等原因所致。从腭裂的裂型 及指尖隆起分析，该综合征的发生时期可能是8～12周。这与唇腭裂的发生时期相一致。目前，此综合征病因尚不清楚。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.特殊面容(100%):睑裂向外侧延长、眼内眦赘皮、下眼睑外侧三分之一轻度外翻，弓形眉伴外侧三分之一眉毛稀疏，鼻尖扁平或鼻中隔较短、弓形腭、腭裂、下唇凹陷、唇裂;耳大而突出，牙齿萌出和排列异常，下颌小，后发际线低等。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.骨骼异常(92%):第5手指很短、内弯或第5指中节骨短缩，第4或(和)第5掌骨短缩，腕骨粗，关节松弛，骶骨内凹，脊柱侧凸和脊椎裂，肋骨变形，髋/膝关节脱位，足畸形等。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.皮纹异常(93%):皮纹多皱褶，手部尺侧箕型纹增多，指腹突出样隆起，第4、5指单一横纹，断掌，指纹三角的c或d缺失，小鱼际区箕形纹增多等。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;4.轻至中度智力障碍(92%):智商在30～83，平均为62.1;痴呆指数范围在22—71，平均为51.7。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;5.发育迟缓(83%):患儿出生体重正常，一年后逐渐低于正常儿童，有83.3%的患儿低于同龄儿童标准差的2.4。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">鉴别诊断</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;现在仅仅认识到Kabuki综合征是一种遗传综合征，其疾病的发生、发展、转归都不清楚。Kabuki综合征患者的临床表现在新生儿阶段并不明显，这给早期诊断Kabuki综合征带来了困难。同样，对其疾病的发展和表现形式还没有透彻了解又使医生对此类成年患者的诊断感到很棘手。因病因及发病机制还不明确，现阶段诊断Kabuki综合征并无有意义的生化指标和影像学标准，其分子遗传学诊断也还不成熟。这就需要有经验的临床医师和在日常临床工作中细致的观察，更应早期运用心脏及腹部超声以检查心脏及肾脏和肝胆的先天畸形，还提倡定期进行听力筛查和语音矫正，特别是各临床专科应结合其临床表现和相关并发症，考虑是否与此症有关，认真评估，避免漏诊现象的发生。治疗根据疾病的5个主要的特征进行诊断：特殊的脸部特征、 生长迟缓、智力障碍、骨骼发展异常及手掌发育异常。
+</text>
+
+</view>

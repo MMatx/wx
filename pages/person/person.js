@@ -45,11 +45,18 @@ Page({
         title: '退出中',
         icon: 'loading'
       })
+      app.globalData.allow =false;
+      this.setData({
+        operation: '登录',
+        login: false,
+        userName: '',//app.globalData.userInfo.nickName,
+        userHead: '',//app.globalData.userInfo.avatarUrl
+      })
       setTimeout(function () {
-        wx.hideToast();
-        wx.removeStorageSync('userInfo');
+        // wx.hideToast();
+        // wx.removeStorageSync('userInfo');
         wx.switchTab({
-          url: '../index/index'
+          url: '/pages/person/person'
         })
       }, 2000);
     } else {

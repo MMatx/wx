@@ -1,1 +1,31 @@
-/* pages/introduce/rett/rett.wxss */
+
+.title_txt{
+  font-size: 62rpx;
+  color: #333333;
+  display: table;
+  width: auto;
+  white-space: nowrap;
+  border-spacing: 0.5rem 0;
+  margin-left: 28rpx;
+  margin-right: 28rpx;
+}
+ .h1_txt{
+   font-size: 42rpx;
+
+}
+.h1_txt::after{
+  display: table-cell;
+  content: "";
+  width: 50%;
+  background: linear-gradient(#D8D8D8, #D8D8D8) repeat-x center;
+  background-size: 0.1rem 0.1rem;
+}
+.h2_txt{
+  font-size: 25rpx;
+   color: #333333;
+
+}
+.mar{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

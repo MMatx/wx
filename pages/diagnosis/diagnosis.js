@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-   tempFilePaths:"../../imag/click.png"
+   tempFilePaths:"../../imag/f4.png"
   },
   /**
    * 生命周期函数--监听页面加载
@@ -18,7 +18,10 @@ Page({
    // console.log("skjfvdkbvfj")
     var that = this
     console.log("uuuup  " + that.data.tempFilePaths)
-    
+    wx.showToast({
+      title: 'AI检测中',
+      icon: 'loading'
+    })
     wx.uploadFile({
       url: 'https://mmatx.cn/diagnosis', 
       filePath: that.data.tempFilePaths,
@@ -31,15 +34,32 @@ Page({
       },
       success(res) {
         console.log("upload success")
-        console.log(res.data)
-        if (res.data=="success") {
-          wx.navigateTo({
-            url: '../result/result?tempFilePaths=' + that.data.tempFilePaths
+        console.log(res)
+        // var json = JSON.parse(res.data)  // 此处转换
+        // console.log(json+"    json")
+        console.log(res.statusCode)
+        console.log(res.data.msg)
+        if (res.data.msg =='未检测到人脸') {
+          wx.showModal({
+            title: '未检测到人脸',
+            content: '',
+            success: function (res) {
+              if (res.confirm) {
+                console.log('用户点击确定')
+              } else if (res.cancel) {
+                console.log('用户点击取消')
+              }
+            }
           })
         }
         else {
-          console.log("未检测到人脸")
+          wx.navigateTo({
+            url: '../result/result?tempFilePaths=' + that.data.tempFilePaths
+          })
+          that.data.tempFilePaths = "../../imag/f4.png"
         }
+        console.log("sdbh")
+        that.data.tempFilePaths = "../../imag/f4.png"
         //do something
       }
     })

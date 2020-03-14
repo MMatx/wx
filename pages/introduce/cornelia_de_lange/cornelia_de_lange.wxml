@@ -1,2 +1,29 @@
-<!--pages/introduce/cornelia_de_lange/cornelia_de_lange.wxml-->
-<text>pages/introduce/cornelia_de_lange/cornelia_de_lange.wxml</text>
+<text class="title_txt">Cornelia de Lange Syndrome</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;德朗热综合征（Cornelia de Lange Syndrome，CdLS) 是一种多发性先天发育异常综合征。是一类罕见的累及多器官系统的遗传异质性疾病,主要特征是特殊面容、胎儿宫内及出生后生长迟滞、多毛症、上肢复位缺陷,常见的器官异常包括上睑下垂、近视、肠旋转不良、隐睾、尿道下裂、幽门狭窄、先天性膈疝、室中隔缺损、癫痫和听力丧失等。患者通常存在严重的智力障碍问题。该病有65%的患者由NIPBL(Nipped-B homolog(Drosophila)),SMClA(structural maintenanceof chromosomes 1A)和SMC3(structural maintenance of chromosomes 3)这三个基因突变所导致,其中NIPBL基因突变占50-60%。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.产前和产后发育滞后。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.小头。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.严重智力发育滞后，语言落后。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.喂养困难。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.畸形，主要为肢体残缺。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.特征面容（如图）：弓形眉，连体眉，短鼻，鼻孔前倾，长人中，上唇薄，嘴角上翘，颚/颌小。</text>
+<text>\n</text>
+<text>\n</text>
+<!-- <text class="h1_txt">鉴别诊断</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.估计CHARGE综合征的发病率约为1/8500-12000。该疾病的名称是由以下临床表现的首字母组成：眼缺损（coloboma），心脏畸形（heart anomalies），后鼻孔闭锁（choanal atresia），生长和/或发育迟缓（retardation of growth and/or development），外生殖器畸形（genital anomalies）及耳畸形（ear anomalies）。由于大部分CHARGE综合征的患者也同时存在着嗅球不发育/发育不全和性腺功能减退症，而这正是KS的临床特点，故当临床上诊断KS时要考虑是否有CHARGE综合征可能。研究发现CHARGE综合征与CHD7基因相关。CHARGE的诊断如下：眼缺损和后鼻孔闭锁为主要诊断标准，余4项为次要诊断标准，符合4条诊断标准（至少1条主要诊断标准）即可诊断。
+</text> -->
+
+</view>

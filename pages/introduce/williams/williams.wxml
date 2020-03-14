@@ -1,2 +1,27 @@
-<!--pages/introduce/williams/williams.wxml-->
-<text>pages/introduce/williams/williams.wxml</text>
+<text class="title_txt">Williams-Beuren综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;Williams-Beuren综合征是由于7q11.23微缺失引起，该区域至少有15个基因，其中最重要的是弹性蛋白基因ELN基因，和在脑组织专一表达的LIMKI基因。该两个基因的缺失导致了本病的两个重要特征。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.智力：轻到中度智力发育迟缓。读写能力差，注意力差，但对音乐等有惊人的耐力。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.生长发育：轻度产前发育迟缓，产后发育障碍，身高低于常人。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.颅面部：小头；眉间潮红；眼裂小、斜视；低鼻梁。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;4.心血管：主动脉瓣上狭是本病特征性改变。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;5.驱赶及四肢：关节活动受限，脊柱前弯、侧弯或后弯。走路笨拙。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt"></text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;
+</text>
+
+</view>

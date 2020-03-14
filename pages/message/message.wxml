@@ -2,13 +2,114 @@
 <text>\n</text>
 <text>\n</text>
 <text>\n</text>
-   <image src='/images/tang.jpg' class='avatar'  bindtap="intro"></image>
-     <text class="word" bindtap="intro">唐氏综合征</text>
+<image src='/images/apert.jpg' class='avatar' bindtap="intro" data-text='14'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='14'>Apert氏综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+<image src='/images/ch.jpg' class='avatar' bindtap="intro" data-text='3'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='3'>Charge 综合征</text>
+<!-- </navigator> -->
 <view class="divLine"></view>
 <text>\n</text>
 
-<image src='/images/tang.jpg' class='avatar' bindtap="intro"></image>
+<image src='/images/cro.jpg' class='avatar' bindtap="intro" data-text='9'></image>
 <!-- <navigator url="/pages/introduce/tang"> -->
-     <text class="word" bindtap="intro">唐氏综合征</text>
+     <text class="word" bindtap="intro" data-text='9'>Crouzon综合征</text>
 <!-- </navigator> -->
 <view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/cor.jpg' class='avatar' bindtap="intro" data-text='10'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='10'>Cornelia de Lange Syndrome</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/dig.jpg' class='avatar' bindtap="intro" data-text='11'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='11'>DiGeorge综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/ka.jpg' class='avatar' bindtap="intro" data-text='8'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='8'>Kabuki综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/Noon.jpg' class='avatar' bindtap="intro" data-text='2'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='2'>Noonan 综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/pws.jpg' class='avatar' bindtap="intro" data-text='4'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='4'>PWS综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+<image src='/images/re.jpg' class='avatar' bindtap="intro" data-text='13'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='13'>Rett综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/ru.jpg' class='avatar' bindtap="intro" data-text='5'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='5'>Rubinstein-Taybi综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/sil.jpg' class='avatar' bindtap="intro" data-text='6'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='6'>Silver-Russell综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+<image src='/images/so.jpg' class='avatar' bindtap="intro" data-text='7'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='7'>Sotos综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+<image src='/images/wil.jpg' class='avatar' bindtap="intro" data-text='12'></image>
+<!-- <navigator url="/pages/introduce/tang"> -->
+     <text class="word" bindtap="intro" data-text='12'>Williams-Beuren综合征</text>
+<!-- </navigator> -->
+<view class="divLine"></view>
+<text>\n</text>
+
+   <image src='/images/tang.jpg' class='avatar'  bindtap="intro" data-text='1'></image>
+     <text class="word" bindtap="intro" data-text='1'>唐氏综合征</text>
+<view class="divLine"></view>
+<text>\n</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

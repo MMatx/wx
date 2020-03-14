@@ -1,17 +1,24 @@
 // pages/per/person_message/person_message.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    userName:'',
+    gender:'',
+    avatarUrl:'',
+    city:'',
+    country:'',
+    bkm:'',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
 
   },
 
@@ -26,6 +33,18 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+   
+    if (app.globalData.allow==true){
+      var that = this;
+      that.setData({
+        userName: app.globalData.userInfo.nickName,
+        gender: app.globalData.userInfo.gender,
+        avatarUrl: app.globalData.userInfo.avatarUrl,
+        city: app.globalData.userInfo.city,
+        country: app.globalData.userInfo.country,
+        bkm:'/imag/bgk.jpg',
+      })
+    }
 
   },
 

@@ -49,6 +49,19 @@ Page({
   onPullDownRefresh: function () {
 
   },
+  new_deit:function(){
+    wx.showModal({
+      title: '已经是最新版本',
+      content: '',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
+    })
+  },
 
   /**
    * 页面上拉触底事件的处理函数

@@ -3,7 +3,7 @@
     <view class="personalMe" >
         <image src="{{userHead}}" style="width:68px;height:68px;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
         <view class="personalInfo">
-            <text>账户名: {{userName}}</text>
+            <text>昵称: {{userName}}</text>
         </view>
     </view>
     <!-- 列表 -->
@@ -11,9 +11,10 @@
     <view class="iconfont icon-myself"  bindtap="listFirst">个人信息</view>
         <!-- <view class="iconfont icon-reserve"  >我的收藏</view> -->
     <view class="iconfont icon-about" bindtap="about" >关于我们</view>
-    <view class="iconfont icon-edition" bindtap="edit">版本号</view>
+    <view class="iconfont icon-edition" bindtap="edit">版本信息</view>
     <!-- <view class="iconfont icon-password" >密码修改</view> -->
     <view class="iconfont icon-feedback" style="border:none;" bindtap="message_back">意见反馈</view>
     </view>
+    <text>\n\n</text>
     <button type="default"  bindtap="defaultLogin" data-login="{{login}}" hover-class="other-button-hover"> {{operation}} </button>
 </view>

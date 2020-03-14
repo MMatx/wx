@@ -25,3 +25,7 @@
    color: #333333;
 
 }
+.mar{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

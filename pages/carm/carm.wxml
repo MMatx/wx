@@ -1,10 +1,8 @@
-<!--pages/camera.wxml-->
-
 <camera mode="normal" device-position="{{device?'back':'front'}}" flash="auto" binderror="error" style="width: 100%; height: 500px;">
   <cover-view class="controls">
  
-      <cover-image class="img" src="../../imag/ff.png" style="width:100%; height:100%"/>
-         <cover-image class="cover-4" src="../../imag/car.png" style="width:80rpx;height:60rpx;" bindtap="devicePosition">
+      <cover-image class="img" src="../../imag/c555.png" style="width:100%; height:100%"/>
+         <cover-image class="cover-4" src="../../imag/c2.png" style="width:80rpx;height:80rpx;" bindtap="devicePosition">
     </cover-image>
   </cover-view>
   <cover-view class="noticeTXT">请将面部放入框内</cover-view>
@@ -13,7 +11,3 @@
 <text>\n</text>
 
 <button class="but" type="primary" bindtap="takePhoto">拍照</button>
-
-<!-- 
-<image mode="widthFix" src="{{src}}"></image> -->
-

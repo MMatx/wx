@@ -1,1 +1,20 @@
-/* pages/per/edit/edit.wxss */
+page{
+    background-color: #efefef;
+}
+.imagesize{
+ display:flex;
+ height: 400px;  
+ flex-direction:column;             
+ justify-content: center;        
+ align-items:center;
+ 
+}
+.imagesize image { 
+  width:220rpx;
+  height:220rpx;
+  }
+.setfont{
+  font-size: 40rpx;
+color: rgb(65, 60, 60);
+
+}

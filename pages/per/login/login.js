@@ -20,14 +20,13 @@ Page({
               // 根据自己的需求有其他操作再补充
               // 我这里实现的是在用户授权成功后，调用微信的 wx.login 接口，从而获取code
               wx.login({
-
                 success: res => {
                   // 获取到用户的 code 之后：res.code
-                  console.log("++++++"),
+                   console.log("++++++"),
                     console.log("用户的code:" + res.code);
-                  console.log(app.globalData.userInfo),
+                   console.log(app.globalData.userInfo),
                     console.log(app.globalData.userInfo.nickName)
-                  console.log(app.globalData.userInfo.avatarUrl)
+                   console.log(app.globalData.userInfo.avatarUrl)
                   // console.log(res.code)
                   // 可以传给后台，再经过解析获取用户的 openid
                   // 或者可以直接使用微信的提供的接口直接获取 openid ，方法如下：
@@ -59,6 +58,7 @@ Page({
             isHide: true
           });
         }
+        
       }
     });
   },
@@ -78,8 +78,10 @@ Page({
         userInfo:e.detail.userInfo
       });
       console.log("用户的openid:" + app.globalData.allow);
-  
-
+      wx.navigateBack({
+        delta: 1
+      })
+      console.log("用户的openiddfbgfbngfn:" + app.globalData.allow);
     } else {
       //用户按了拒绝按钮
       wx.showModal({

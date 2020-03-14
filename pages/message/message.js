@@ -7,11 +7,83 @@ Page({
   data: {
 
   },
-  intro:function(){
+  intro:function(e){
     console.log("ksjdfk")
-   wx.navigateTo({
-     url: '../introduce/tang/tang'
-   })
+    console.log(e.currentTarget.dataset.text)
+    var num = e.currentTarget.dataset.text;
+    console.log(num)
+    if(num==1)
+    {
+      wx.navigateTo({
+        url: '../introduce/tang/tang'
+      })
+    }
+    else if(num==2)
+    {
+      wx.navigateTo({
+        url: '../introduce/noonan/noonan'
+      })
+    }
+    else if(num==3){
+      wx.navigateTo({
+        url: '../introduce/charge/charge'
+      })
+    }
+    else if(num==4){
+      wx.navigateTo({
+        url: '../introduce/pws/pws'
+      })
+    }
+    else if(num==5){
+      wx.navigateTo({
+        url: '../introduce/rubinstein/rubinstein'
+      })
+    }
+    else if(num==6){
+      wx.navigateTo({
+        url: '../introduce/silver/silver'
+      })
+    }
+    else if(num==7){
+      wx.navigateTo({
+        url: '../introduce/sotos/sotos'
+      })
+    }
+    else if(num==8){
+      wx.navigateTo({
+        url: '../introduce/kabuki/kabuki'
+      })
+    }
+    else if(num==9){
+      wx.navigateTo({
+        url: '../introduce/crouzon/crouzon'
+      })
+    }
+    else if(num==10){
+      wx.navigateTo({
+        url: '../introduce/cornelia_de_lange/cornelia_de_lange'
+      })
+    }
+    else if(num==11){
+      wx.navigateTo({
+        url: '../introduce/digeroge/digeroge'
+      })
+    }
+    else if(num==12){
+      wx.navigateTo({
+        url: '../introduce/williams/williams'
+      })
+    }else if(num==13){
+      wx.navigateTo({
+        url: '../introduce/rett/rett'
+      })
+    }
+    else if(num==14){
+      wx.navigateTo({
+        url: '../introduce/apert/apert'
+      })
+    }
+   
   },
   /**
    * 生命周期函数--监听页面加载

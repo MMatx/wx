@@ -1,7 +1,7 @@
 <!--pages/diagnosis/diagnosis.wxml-->
 <view class="in-image">
 
-<image src="{{tempFilePaths }}" mode="aspecFill" style="width: 70%; height: 450rpx"/>
+<image src="{{tempFilePaths }}" mode="aspecFit" style="width: 70%; height: 630rpx"/>
 </view>
 <view class="p_button">
 <button class="box" bindtap="chooseimage">上传照片</button>

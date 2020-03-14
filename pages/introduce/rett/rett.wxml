@@ -1,2 +1,26 @@
-<!--pages/introduce/rett/rett.wxml-->
-<text>pages/introduce/rett/rett.wxml</text>
+<text class="title_txt">Rett综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;Rett综合征是一种严重影响儿童精神运动发育的疾病，发病率为1/10000-1/15000女孩。临床特征为女孩起病，呈进行性智力下降，孤独症行为，手的失用，刻板动作及共济失调。其病因及遗传方式尚不清楚。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">Rett综合征的临床表现具有一定的阶段性，并与年龄相关，共分为四期：\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;I 期：自6－18个月发病时起，持续数月。表现为发育停滞，头部生长迟缓，对玩耍及周围的环境无兴趣，肌张力低下。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;Ⅱ期：自1－3岁时起，持续数周至数月。表现为发育迅速倒退伴激惹现象，手的失用与刻板动作，惊厥，孤独症表现，语言丧失，失眠，自虐。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;Ⅲ期：自2－10岁时起，持续数月至数年，表现为严重的智力倒退或明显的智力低下，孤独症表现改善。惊厥，典型的手的刻板动作，明显的共济失调，躯体失用，反射增强，肢体僵硬，醒觉时呼吸暂停，食欲好但体重下降，早期的脊柱侧弯，咬牙。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;Ⅳ期：10岁以上，持续数年，表现为上、下运动神经元受累的体征，进行性脊柱侧弯，肌肉废用，肌体僵硬，双足萎缩，失去独立行走的能力，生长迟缓，不能理解和运用语言，眼对眼的交流恢复，惊厥频率下降。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt"></text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;
+</text>
+
+</view>

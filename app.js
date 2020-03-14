@@ -37,6 +37,7 @@ App({
   globalData: {
     userInfo: null,
     allow:false,
+    tempFilePaths: "../../imag/f4.png",
     
   }
 })

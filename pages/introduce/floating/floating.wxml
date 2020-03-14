@@ -1,2 +1,22 @@
-<!--pages/introduce/floating/floating.wxml-->
-<text>pages/introduce/floating/floating.wxml</text>
+<text class="title_txt">DiGeorge综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;本征是多基因遗传性疾病，但染色体22q11区域缺失是主要原因。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.由于胎儿甲状旁腺机能减退和低血钙，新生儿出现手足搐搦症，低血钙症倾向于生后1年内缓解。患儿表现为特殊面孔，如眼眶距离增宽，耳郭位置低且有切迹，上唇正中纵沟短颌小和鼻裂。常存在大血管异常，如法洛四联症和主动脉弓右位。如新生儿期未死亡，生后3～4个月可发生各种严重的病毒、真菌如念珠菌和卡氏肺囊虫感染，而细菌感染较轻。接种如牛痘疫苗、麻疹疫苗等减毒的活病毒疫苗和如卡介苗等细菌活菌苗注射时易发生严重反应，甚至致死，这是由于细胞免疫功能丧失所致。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">鉴别诊断</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.免疫学检查：本病仅累及T细胞。细胞免疫功能很差，外周血淋巴细胞绝对计数＜1.5×109/L，主要是T细胞数量显著减少，E花环细胞形成率＜10%。T细胞功能试验呈“无反应”。外周血B细胞数增高，血清免疫球蛋白浓度正常。
+</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.组织病理检查：淋巴结深皮质胸腺依赖区的淋巴细胞减少。胸腺体积小，仅含10%～20%的正常胸腺组织，甲状旁腺也缺如或发育不全。外周淋巴组织中的浆细胞数量和分布正常。
+</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.其他辅助检查：患者X线检查无胸腺影。
+</text>
+</view>

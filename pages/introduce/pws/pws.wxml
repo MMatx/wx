@@ -1,2 +1,24 @@
-<!--pages/introduce/pws/pws.wxml-->
-<text>pages/introduce/pws/pws.wxml</text>
+<text class="title_txt">PWS综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;15q11-q13区域异常导致PWS表型的机制尚不明了，可能与下丘脑部功能紊乱或新陈代谢障碍有关。现研究显示15q11-q13区域存在SNRPN、NDN、MAGEL2、MKRN3和Cl5orf2印记基因，它们仅存在于父源15号染色体的等位基因上。SSNRPN位于印迹中心区域，可编码5种snoRNAs，被认为与PWS表型有密切关系，也是最可靠的诊断位点，可检出绝大多数PWS，并可用于产前诊断。PWS的病因肇因于第15号染色体印迹基因区的基因缺陷，且此基因缺陷来自父亲，或同时拥有两条来自母亲的带有此缺陷的第15号染色体，若此基因缺陷来自母亲，则会造成Angelman's syndrome(天使人综合症)。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;此疾病会造成低肌张力、性腺功能减退、智力障碍、行为问题及长期的强烈饥饿感导致过度摄食造成威胁生命的肥胖。目前尚无办法彻底根治，终身需在监管下生活。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;临床症状复杂，不同年龄段表现不同，症状和严重程度个体差异大。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;温馨提醒：PWS易诊断为脑瘫、脊髓性肌萎缩症(SMA)、重症肌无力、软骨病、发育迟缓、单纯性肥胖症等，如有肥胖或以下症状请及时就医做基因检测，早发现早控制早干预。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">鉴别诊断</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.分子遗传学诊断方法，如：高分辨率染色体分析，荧光原位杂交法，甲基化-特异性聚合酶链反应，甲基化特异性多重连接依赖性探针扩增法，染色体微阵列分析。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.遗传咨询：PWS的再发风险印记基因缺陷的类型有关，父源缺失和母源UPD为散发，父母基因均正常，再发风险约为1%。印记基因突变：如果父亲也是PWS病人，再发风险高达50%，如果父亲不是PWS病人，再发率很低。
+</text>
+</view>

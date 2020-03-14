@@ -1,2 +1,23 @@
-<!--pages/introduce/silver/silver.wxml-->
-<text>pages/introduce/silver/silver.wxml</text>
+<text class="title_txt">Silver-Russell综合征</text>
+<view class='mar'>
+<text>\n\n</text>
+<text class="h1_txt">病因病理</text>
+<text>\n</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;Silver-Russell综合征的病因较复杂，目前的研究结果提示由调控生长的基因结构和甲基化等异常导致，已知相关基因位于第7号和第11号染色体特定区域。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">临床表现</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;1.出生前生长迟滞：出生体重低，生长发育缓慢，身材矮小。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;2.异常体征：尖下颌导致三角形脸、相对头围偏大及前额宽阔突出。齿列不齐、耳位低，躯体偏身不对称，如两侧肢体长度不一致、小指侧弯畸形等。</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;3.其他：新生儿期可出现低血糖、尿道下裂、隐睾和马蹄肾等泌尿生殖系统畸形，或喂养困难、反流性食管炎等消化系统异常及牛奶咖啡斑，还可出现运动、认知及语言发育迟缓、学习障碍等。</text>
+<text>\n</text>
+<text>\n</text>
+<text class="h1_txt">鉴别诊断</text>
+<text>\n</text>
+<text decode='true' class="h2_txt">&ensp;&ensp;可进行体格检查、骨龄测定、X线检查及基因分析等检查。
+</text>
+
+</view>
