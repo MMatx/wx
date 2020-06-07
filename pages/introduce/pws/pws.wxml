@@ -1,4 +1,4 @@
-<text class="title_txt">PWS综合征</text>
+<text class="title_txt">PWS综合症</text>
 <view class='mar'>
 <text>\n\n</text>
 <text class="h1_txt">病因病理</text>
@@ -21,4 +21,5 @@
 <text>\n</text>
 <text decode='true' class="h2_txt">&ensp;&ensp;2.遗传咨询：PWS的再发风险印记基因缺陷的类型有关，父源缺失和母源UPD为散发，父母基因均正常，再发风险约为1%。印记基因突变：如果父亲也是PWS病人，再发风险高达50%，如果父亲不是PWS病人，再发率很低。
 </text>
+<text>\n\n\n\n</text>
 </view>

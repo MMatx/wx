@@ -29,13 +29,21 @@ Page({
     })
   },
   getLocation: function () {
-    wx.openLocation({
-      latitude: 29.53,
-      longitude: 106.57,
-      name: "山东省临沂市",
-      address: "山东省临沂市",
-      scale: 28
+    wx.getLocation({
+      success: function(res) {
+
+        wx.openLocation({
+          latitude: res.latitude,
+          longitude: res.longitude,
+          name: "山东省青岛市黄岛区山东科技大学",
+          address: "山东省青岛市黄岛区山东科技大学",
+          scale: 28
+        })
+
+
+      },
     })
+ 
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数

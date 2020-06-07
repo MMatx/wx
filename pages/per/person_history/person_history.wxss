@@ -1,0 +1,38 @@
+/* pages/per/person_history/person_history.wxss */
+.title{
+  font-style:normal;
+  font-weight:700;
+  font-size:60rpx;
+  font-family:STKaiti;
+  position:relative;
+  margin-left: 180rpx;
+  margin-top:100rpx;
+}
+.font_set{
+  font-style:normal;
+  font-weight:500;
+  font-size:35rpx;
+  
+  position: relative;
+}
+.img{
+  position: relative;
+   height: 50px;    
+ width: 50px;
+margin-right: 10rpx;
+
+}
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+.no_log{
+  font-style:normal;
+  font-weight:500;
+  font-size:50rpx;
+  font-family:STKaiti;
+  position:relative;
+  margin-left: 200rpx;
+  /* margin-top:100rpx; */
+}

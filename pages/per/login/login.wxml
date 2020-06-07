@@ -1,7 +1,7 @@
 <!-- <view wx:if="{{isHide}}">
     <view wx:if="{{canIUse}}" > -->
         <view class='header'>
-            <image src='/imag/face1.png'></image>
+            <image src='/imag/title1.jpg' style="width:68px;height:68px;border:1px solid #ddd;float:left;margin:20rpx 250rpx;border-radius: 50%;"></image>
         </view>
  
         <view class='content'>

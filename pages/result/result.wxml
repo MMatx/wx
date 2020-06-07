@@ -1,5 +1,5 @@
 <view class='title-view'> 
-<text class="title">患病概率</text>
+<text class="title">患病概率/百分比</text>
 </view>
 <view class="canvas-view">
     <canvas class="canvas" canvas-id="canvasId"></canvas>

@@ -1,4 +1,4 @@
-<text class="title_txt">DiGeorge综合征</text>
+<text class="title_txt">DiGeorge综合症</text>
 <view class='mar'>
 <text>\n\n</text>
 <text class="h1_txt">病因病理</text>
@@ -19,4 +19,5 @@
 </text>
 <text decode='true' class="h2_txt">&ensp;&ensp;2.其他辅助检查：患者X线检查无胸腺影。
 </text>
+<text>\n\n\n\n</text>
 </view>

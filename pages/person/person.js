@@ -21,6 +21,7 @@ Page({
         userName: app.globalData.userInfo.nickName,
         userHead: app.globalData.userInfo.avatarUrl
       })
+      
     } else {
       this.setData({
         userName: '',
@@ -50,7 +51,7 @@ Page({
         operation: '登录',
         login: false,
         userName: '',//app.globalData.userInfo.nickName,
-        userHead: '',//app.globalData.userInfo.avatarUrl
+        userHead: '../../imag/unuserhead.png',//app.globalData.userInfo.avatarUrl
       })
       setTimeout(function () {
         // wx.hideToast();
@@ -75,11 +76,28 @@ Page({
       })
     } else {
       wx.showToast({
-        title: '请登录',
+        title: '请先登录',
         icon: 'loading',
         duration: 800
       })
     }
+  },
+  history: function () {
+    if(this.data.login){
+      wx.navigateTo({
+        url: '../per/person_history/person_history'
+      })
+
+    }
+    else
+    {
+      wx.showToast({
+        title: '请先登录',
+        icon: 'loading',
+        duration: 800
+      })
+    }
+
   },
   about:function(){
     wx.navigateTo({

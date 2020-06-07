@@ -36,14 +36,28 @@ Page({
    
     if (app.globalData.allow==true){
       var that = this;
-      that.setData({
-        userName: app.globalData.userInfo.nickName,
-        gender: app.globalData.userInfo.gender,
-        avatarUrl: app.globalData.userInfo.avatarUrl,
-        city: app.globalData.userInfo.city,
-        country: app.globalData.userInfo.country,
-        bkm:'/imag/bgk.jpg',
-      })
+     
+      if (app.globalData.userInfo.gender=='0'){
+        that.setData({
+          userName: app.globalData.userInfo.nickName,
+          gender: '女',
+          avatarUrl: app.globalData.userInfo.avatarUrl,
+          city: app.globalData.userInfo.city,
+          country: app.globalData.userInfo.country,
+          bkm: '/imag/bgk.jpg',
+        })
+      }
+      else
+      {
+        that.setData({
+          userName: app.globalData.userInfo.nickName,
+          gender: '男',
+          avatarUrl: app.globalData.userInfo.avatarUrl,
+          city: app.globalData.userInfo.city,
+          country: app.globalData.userInfo.country,
+          bkm: '/imag/bgk.jpg',
+        })
+      }
     }
 
   },

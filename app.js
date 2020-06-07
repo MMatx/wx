@@ -38,6 +38,7 @@ App({
     userInfo: null,
     allow:false,
     tempFilePaths: "../../imag/f4.png",
+    openid:null,
     
   }
 })

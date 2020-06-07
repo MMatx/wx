@@ -4,35 +4,36 @@ Page({
     //条形框值
     tempFilePaths:'',
     list: [
-      { "yellow": 0, "blue": 0.3, "red": 0 },
-      { "yellow": 0, "blue": 4.7, "red": 2.1 },
-      { "yellow": 0, "blue": 4.1, "red": 2.9 },
-      { "yellow": 3.7, "blue": 2.4, "red": 0.2 },
-      { "yellow": 0.2, "blue": 0.7, "red": 3.3 },
-      { "yellow": 1.9, "blue": 0.1, "red": 4.1 },
-      { "yellow": 4.3, "blue": 3.4, "red": 4.8 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
-      { "yellow": 4.6, "blue": 5, "red": 1.6 },
+      { "yellow": 0, "blue": 0, "red": 0 },
+      { "yellow": 0, "blue": 0, "red": 2.1 },
+      { "yellow": 0, "blue": 0, "red": 2.9 },
+      { "yellow": 3.7, "blue": 0, "red": 0.2 },
+      { "yellow": 0.2, "blue": 0, "red": 3.3 },
+      { "yellow": 1.9, "blue": 0, "red": 4.1 },
+      { "yellow": 4.3, "blue": 0, "red": 4.8 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
+      { "yellow": 4.6, "blue": 0, "red": 1.6 },
       { "yellow": 4.6, "blue": 100, "red": 1.6 },
 
 
     ],
-    yMin: 10,  //竖
+    yMin: 3,  //竖
     xMin: 120, //横
     yMax: 550,  //竖
     xMax: 460 - 20,  //横
     s28: 8,  //字号大小
     s18: 14,  //字号大小 患病
     //Y轴分成的大分段
-    heightLineNum: 15,
+    heightLineNum: 16,
     //X轴分成的大分段
     widthLineNum: 100,
     //Y轴一个分段的值
-    yOneDuan: ["唐氏综合征", "Noonan", "Charge", "Pws", "Rubinstein taybi", "Silver Russell", "Sotos", "Kabuki", "Crouzon", "Cornelia de lange", "Digeroge", "williams beuren", "rett", "apert"],
+    yOneDuan: ["唐氏综合征", "Apert", "Charge", "Cornelia de lange", "Crouzon", "Digeroge", "Kabuki", "Noonan", "Pws", "Rett","Rubinstein taybi", "Silver Russell", "Sotos","Williams beuren",  "正常"],
     color1: '#ffd338',  //黄色
     color2: '#4790fc',  //蓝色
     color3: '#f95415',  //绿色
@@ -40,11 +41,15 @@ Page({
 
   onLoad: function (options) {
     //画图
+    wx.showLoading({
+      title: '预测患病概率中',
+    })
       var that = this
       console.log('path  '+options.tempFilePaths)
     that.setData({
       tempFilePaths: options.tempFilePaths
     })
+    console.log('resutl= ' + app.globalData.openid)
     wx.uploadFile({
       url: 'https://mmatx.cn/result',
       filePath: that.data.tempFilePaths,
@@ -54,20 +59,29 @@ Page({
       },
       formData: {
         "user": "test",
+       'openid': app.globalData.openid,
       },
       success(res) {
+        wx.hideLoading()
         console.log("upload gbfb success")
         console.log(res.data)
         console.log(res.data.result)
-        console.log(res.data.msg)
+         console.log(res.data['r'])
         console.log(res.data.r)
         var json = JSON.parse(res.data)  // 此处转换
+        // console.log(json)
         console.log(json.r+"    json")
         console.log(json.r[2])
-        for(var i=0;i<14;i++)
+        // var temp =json.r[0]
+        for(var i=0;i<15;i++)
         {
           that.data.list[i]['blue'] = json.r[i]
+          // if (json.r[i]>temp){
+          //   temp=json.r[i]
+          // }
+          console.log(json.r[i])
         }
+        // that.data.list[0]['blue']=100.0-temp
         console.log(that.data.list[1]['blue'])
         console.log("sjdfbjsb")
         console.log(that.data.list[0]['blue'])
@@ -96,7 +110,7 @@ Page({
 
     ctx.beginPath() //方法开始一条路径，或重置当前的路径
     ctx.setStrokeStyle('#999999')//设置线条样式
-    ctx.setFillStyle('#AAAAAA')
+    ctx.setFillStyle('#696969')
     ctx.setLineWidth(1) //设置线条宽度
 
     //左上角
@@ -222,10 +236,19 @@ Page({
       // ctx.fillRect(x, y - rectWidth / 2 - rectWidth, yellowHeight, rectWidth);
       // ctx.save();
       //蓝色填充
-      ctx.setFillStyle(that.data.color2)
+      if (i == that.data.list.length-1)
+      {
+        ctx.setFillStyle(that.data.color1)
+      }
+      else
+      {
+        ctx.setFillStyle(that.data.color2)
+      }
+      
       //画框
-      ctx.fillRect(x, y - rectWidth / 2, blueHeight, rectWidth);
-      ctx.fillText(currentRectBlue + '%', blueHeight + x + 5, y + 2)
+      ctx.fillRect(x, y - rectWidth / 2 - rectWidth, blueHeight, rectWidth*3);
+      ctx.setFillStyle('#696969')
+      ctx.fillText(currentRectBlue , blueHeight + x + 3, y + 2)
       ctx.save();
       // //红色填充
       // ctx.setFillStyle(that.data.color3)

@@ -12,6 +12,7 @@
         <!-- <view class="iconfont icon-reserve"  >我的收藏</view> -->
     <view class="iconfont icon-about" bindtap="about" >关于我们</view>
     <view class="iconfont icon-edition" bindtap="edit">版本信息</view>
+    <view class="iconfont icon-edition" bindtap="history">检测历史</view>
     <!-- <view class="iconfont icon-password" >密码修改</view> -->
     <view class="iconfont icon-feedback" style="border:none;" bindtap="message_back">意见反馈</view>
     </view>

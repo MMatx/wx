@@ -17,7 +17,7 @@ margin-left: 20rpx;
 .title{
 width: fit-content;
 font-size:30px;      /*设置文字字号*/
-color:rgb(10, 10, 10);           /*设置文字颜色*/
+color:rgb(8, 8, 8);           /*设置文字颜色*/
 font-weight:bold;    /*设置字体加粗*/
 border:1px solid rgb(143, 134, 134);/*添加边框样式（粗细为1px， 颜色为红色的实线）*/
 

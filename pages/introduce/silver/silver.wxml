@@ -1,9 +1,9 @@
-<text class="title_txt">Silver-Russell综合征</text>
+<text class="title_txt">Silver-Russell综合症</text>
 <view class='mar'>
 <text>\n\n</text>
 <text class="h1_txt">病因病理</text>
 <text>\n</text>
-<text decode='true' class="h2_txt" >&ensp;&ensp;Silver-Russell综合征的病因较复杂，目前的研究结果提示由调控生长的基因结构和甲基化等异常导致，已知相关基因位于第7号和第11号染色体特定区域。</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;Silver-Russell综合症的病因较复杂，目前的研究结果提示由调控生长的基因结构和甲基化等异常导致，已知相关基因位于第7号和第11号染色体特定区域。</text>
 <text>\n</text>
 <text>\n</text>
 <text class="h1_txt">临床表现</text>
@@ -19,5 +19,5 @@
 <text>\n</text>
 <text decode='true' class="h2_txt">&ensp;&ensp;可进行体格检查、骨龄测定、X线检查及基因分析等检查。
 </text>
-
+<text>\n\n\n\n</text>
 </view>

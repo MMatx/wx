@@ -1,0 +1,24 @@
+
+<text class="title">历史检测记录</text>
+<view wx:if='{{isflas}}'>
+<text >\n\n</text>
+<view class='font_set' wx:for="{{history_list}}">
+<text >\n</text>
+
+<text  decode='true'>&ensp;</text>
+<image class='img' mode='aspectFit' src="{{item.urls}}" />
+检测时间：{{item.time}}
+<text >\n</text>
+<text  decode='true'>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;检测结果：</text>
+{{item.msg}}
+
+<text >\n</text>
+<view class="divLine"></view>
+</view>
+
+</view>
+
+<view wx:else>
+<text>\n\n</text>
+<text class='no_log'>暂无检测记录</text>
+</view>

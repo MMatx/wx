@@ -1,6 +1,5 @@
 {
   "pages": [
-    
     "pages/diagnosis/diagnosis",
     "pages/bar/bar",
     "pages/cal/cal",
@@ -31,9 +30,15 @@
     "pages/per/person_message/person_message",
     "pages/per/about/about",
     "pages/per/edit/edit",
-    "pages/per/message_back/message_back"
-    
+    "pages/per/message_back/message_back",
+
+    "pages/per/person_history/person_history"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置用于导航"
+    }
+  },
   "window": {
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "light",

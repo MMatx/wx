@@ -1,7 +1,7 @@
 <view class="page-phone">
     <view class="header">
       <view class="wx-title">联系我们</view>
-      <view class="wx-desc">遗传综合征诊断团队</view>
+      <view class="wx-desc"></view>
       <!-- <image src="{{logosrc}}" class="logoimg"></image> -->
     </view>
 
@@ -11,7 +11,7 @@
          <view class="icon">
             <image src="{{adrimg}}" class="icon-postion"></image>
          </view>
-         <view class="cell-bd" bindtap="getLocation">山东省临沂市</view>
+         <view class="cell-bd" bindtap="getLocation">山东省青岛市黄岛区山东科技大学</view>
          <view class="cell-fd">
             <image src="{{jtimg}}" class="icon-postion"></image>
          </view>

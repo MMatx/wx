@@ -1,9 +1,9 @@
-<text class="title_txt">Williams-Beuren综合征</text>
+<text class="title_txt">Williams-Beuren综合症</text>
 <view class='mar'>
 <text>\n\n</text>
 <text class="h1_txt">病因病理</text>
 <text>\n</text>
-<text decode='true' class="h2_txt" >&ensp;&ensp;Williams-Beuren综合征是由于7q11.23微缺失引起，该区域至少有15个基因，其中最重要的是弹性蛋白基因ELN基因，和在脑组织专一表达的LIMKI基因。该两个基因的缺失导致了本病的两个重要特征。</text>
+<text decode='true' class="h2_txt" >&ensp;&ensp;Williams-Beuren综合症是由于7q11.23微缺失引起，该区域至少有15个基因，其中最重要的是弹性蛋白基因ELN基因，和在脑组织专一表达的LIMKI基因。该两个基因的缺失导致了本病的两个重要特征。</text>
 <text>\n</text>
 <text>\n</text>
 <text class="h1_txt">临床表现</text>
@@ -23,5 +23,5 @@
 <text>\n</text>
 <text decode='true' class="h2_txt">&ensp;&ensp;
 </text>
-
+<text>\n\n\n\n</text>
 </view>

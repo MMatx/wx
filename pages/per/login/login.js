@@ -22,11 +22,11 @@ Page({
               wx.login({
                 success: res => {
                   // 获取到用户的 code 之后：res.code
-                   console.log("++++++"),
-                    console.log("用户的code:" + res.code);
-                   console.log(app.globalData.userInfo),
-                    console.log(app.globalData.userInfo.nickName)
-                   console.log(app.globalData.userInfo.avatarUrl)
+                  //  console.log("++++++"),
+                  //   console.log("用户的code:" + res.code);
+                  //  console.log(app.globalData.userInfo),
+                  //   console.log(app.globalData.userInfo.nickName)
+                  //  console.log(app.globalData.userInfo.avatarUrl)
                   // console.log(res.code)
                   // 可以传给后台，再经过解析获取用户的 openid
                   // 或者可以直接使用微信的提供的接口直接获取 openid ，方法如下：
@@ -40,11 +40,18 @@ Page({
                     },
                     header: { "content-type": "application/x-www-form-urlencoded" },
                     // header: { "content-type": "application/json" },
-                    success: res => {
+                    success(res){
                       // 获取到用户的 openid
-                      console.log("用户的openid:" + res.data.msg);
-                      console.log("用户的openid:" + res.data.openid);
-                      console.log("用户的openid:" + app.globalData.allow);
+                      // var json = JSON.parse(res.data);
+                      // console.log(json.openid);
+                     console.log(res.data.openid);
+                      // var json = JSON.stringify(res.data);
+                      // console.log(json);
+                      // console.log("用户的openid:" + json.msg);
+                      //console.log("用户的openid:" + JSON.stringify(res.result));
+                      app.globalData.openid = res.data.openid;
+                      console.log("jsdbjsb   "+app.globalData.openid)
+                      //console.log("用户的openid:" + app.globalData.openid );
                     }
                   });
                 }
@@ -68,8 +75,8 @@ Page({
       //用户按了允许授权按钮
       var that = this;
       // 获取到用户的信息了，打印到控制台上看下
-      console.log("用户的信息如下：");
-      console.log(e.detail.userInfo);
+      // console.log("用户的信息如下：");
+      // console.log(e.detail.userInfo);
       app.globalData.userInfo=e.detail.userInfo;
       app.globalData.allow=true;
       //授权成功后,通过改变 isHide 的值，让实现页面显示出来，把授权页面隐藏起来
@@ -77,11 +84,11 @@ Page({
         isHide: false,
         userInfo:e.detail.userInfo
       });
-      console.log("用户的openid:" + app.globalData.allow);
+      // console.log("用户的openid:" + app.globalData.allow);
       wx.navigateBack({
         delta: 1
       })
-      console.log("用户的openiddfbgfbngfn:" + app.globalData.allow);
+      // console.log("用户的openiddfbgfbngfn:" + app.globalData.allow);
     } else {
       //用户按了拒绝按钮
       wx.showModal({

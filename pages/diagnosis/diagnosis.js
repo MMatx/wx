@@ -15,54 +15,67 @@ Page({
  
   },
   buttonListener:function(){
-   // console.log("skjfvdkbvfj")
-    var that = this
-    console.log("uuuup  " + that.data.tempFilePaths)
-    wx.showToast({
-      title: 'AI检测中',
-      icon: 'loading'
-    })
-    wx.uploadFile({
-      url: 'https://mmatx.cn/diagnosis', 
-      filePath: that.data.tempFilePaths,
-      name: 'image',
-      header: {
-        "Content-Type": "multipart/form-data",
-      },
-      formData: {
-        "user": "test",
-      },
-      success(res) {
-        console.log("upload success")
-        console.log(res)
-        // var json = JSON.parse(res.data)  // 此处转换
-        // console.log(json+"    json")
-        console.log(res.statusCode)
-        console.log(res.data.msg)
-        if (res.data.msg =='未检测到人脸') {
-          wx.showModal({
-            title: '未检测到人脸',
-            content: '',
-            success: function (res) {
-              if (res.confirm) {
-                console.log('用户点击确定')
-              } else if (res.cancel) {
-                console.log('用户点击取消')
+    if(app.globalData.allow==true){
+      var that = this
+      console.log("uuuup  " + that.data.tempFilePaths)
+      wx.showLoading({
+        title: '正在检测人脸',
+      })
+      wx.uploadFile({
+        url: 'https://mmatx.cn/diagnosis',
+        filePath: that.data.tempFilePaths,
+        name: 'image',
+        
+        header: {
+          "Content-Type": "multipart/form-data",
+        },
+        formData: {
+          "user": "test",
+        },
+        success(res) {
+          wx.hideLoading()
+          console.log("upload success")
+          // console.log(res)
+         var json = JSON.parse(res.data)  // 此处转换
+          console.log(json + "    json")
+          console.log(res.statusCode)
+          console.log(json.msg)
+          //var tmp='yes'
+          if (json.msg == 'NO') {
+            wx.showModal({
+              title: '未检测到人脸',
+              content: '',
+              success: function (res) {
+                if (res.confirm) {
+                  console.log('用户点击确定')
+                } else if (res.cancel) {
+                  console.log('用户点击取消')
+                }
               }
-            }
-          })
-        }
-        else {
-          wx.navigateTo({
-            url: '../result/result?tempFilePaths=' + that.data.tempFilePaths
-          })
+            })
+          }
+          else {
+            wx.navigateTo({
+              url: '../result/result?tempFilePaths=' + that.data.tempFilePaths
+            })
+            that.data.tempFilePaths = "../../imag/f4.png"
+          }
+          console.log("sdbh")
           that.data.tempFilePaths = "../../imag/f4.png"
+          //do something
         }
-        console.log("sdbh")
-        that.data.tempFilePaths = "../../imag/f4.png"
-        //do something
-      }
+      })
+
+    }
+         else{
+    wx.showToast({
+      title: '请先登录',
+      icon: 'loading',
+      duration: 800
     })
+    }
+   // console.log("skjfvdkbvfj")
+    
 
   
 
@@ -124,20 +137,32 @@ Page({
     })
   },
   chooseimage: function () {
-    var that = this;
-    wx.showActionSheet({
-      itemList: ['从相册中选择', '拍照'],
-      itemColor: "#25b8ef",
-      success: function (res) {
-        if (!res.cancel) {
-          if (res.tapIndex == 0) {
-            that.chooseWxImage('album')
-          } else if (res.tapIndex == 1) {
-            that.chooseWxImage('camera')
+    if (app.globalData.allow==true){
+      var that = this;
+      wx.showActionSheet({
+        itemList: ['从相册中选择', '拍照'],
+        itemColor: "#25b8ef",
+        success: function (res) {
+          if (!res.cancel) {
+            if (res.tapIndex == 0) {
+              that.chooseWxImage('album')
+            } else if (res.tapIndex == 1) {
+              that.chooseWxImage('camera')
+            }
           }
         }
-      }
-    })
+      })
+
+    }
+    else{
+      wx.showToast({
+        title: '请先登录',
+        icon: 'loading',
+        duration: 800
+      })
+
+    }
+ 
 
   },
 
